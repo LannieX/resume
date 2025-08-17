@@ -1,12 +1,13 @@
 "use client";
 
-import { SiNodedotjs, SiExpress,SiFlutter, SiSwift,SiMysql } from "react-icons/si";
+import { SiNodedotjs, SiExpress,SiFlutter, SiSwift,SiMysql, SiPostgresql } from "react-icons/si";
 import {
   FaHtml5,
   FaCss3,
   FaJs,
   FaReact,
   FaPython,
+  FaVuejs,
   
 } from "react-icons/fa";
 import React from "react";
@@ -39,7 +40,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "0 Years 6 Months",
+      fieldValue: "1 Years 3 Months",
     },
     {
       fieldName: "Nationality",
@@ -50,12 +51,8 @@ const about = {
       fieldValue: "lan29138@gmail.com",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
-    },
-    {
       fieldName: "Languages",
-      fieldValue: "Thai, English, Malay, Arabic",
+      fieldValue: "Thai, English, Malay",
     },
   ],
 };
@@ -63,8 +60,13 @@ const about = {
 const experience = {
   icon: "",
   title: "My Experience",
-  description: "6 Months of experience.",
+  description: "1 Year 3 Months of experience.",
   items: [
+    {
+      company: "Poontana marketing co. ltd",
+      position: "Full Stack Developer",
+      duration: "November 2024 - Present",
+    },
     {
       company: "Ai And Robotics Ventures",
       position: "Front End Developer (Intership)",
@@ -129,16 +131,16 @@ const skill = {
       name: "Flutter",
     },
     {
-      icon: <SiSwift />,
-      name: "Swift",
-    },
-    {
-      icon: <FaPython />,
-      name: "Python",
+      icon: <FaVuejs />,
+      name: "VueJS",
     },
     {
       icon: <SiMysql />,
       name: "SQL",
+    },
+    {
+      icon: <SiPostgresql />,
+      name: "Postgresql",
     },
   ],
 };
